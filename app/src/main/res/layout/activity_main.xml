@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvResSin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sin ViewModel: 0"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"
+        tools:ignore="HardcodeText"
+        />
+
+    <TextView
+        android:id="@+id/tvResCon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Con ViewModel: 0"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"
+        tools:ignore="HardcodeText"
+         />
+
+    <Button
+        android:id="@+id/btIncrementarsin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Incrementar"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="524dp" />
+
+    <Button
+        android:id="@+id/btIncrementarCon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Incrementar estable"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="512dp" />
+
+</LinearLayout>
